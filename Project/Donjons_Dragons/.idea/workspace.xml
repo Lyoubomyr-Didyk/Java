@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d86c690-e4ea-490b-a7ba-7ed1ff0ebd0c" name="Changes" comment="" />
+    <list default="true" id="4d86c690-e4ea-490b-a7ba-7ed1ff0ebd0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Note/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Note/itProger_java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Note/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Menu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2SNvFTPKGYOMMDUhiCHMrpugZvY" />
   <component name="ProjectViewState">
@@ -37,8 +45,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/Bureau/Java/Project" />
-      <recent name="$USER_HOME$/Bureau/Java/Project/Donjons_Dragons" />
+      <recent name="$PROJECT_DIR$/.." />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../.." />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -55,6 +63,7 @@
       <updated>1688999756786</updated>
       <workItem from="1688999757776" duration="4240000" />
       <workItem from="1689006903674" duration="285000" />
+      <workItem from="1689088910374" duration="145000" />
     </task>
     <servers />
   </component>
@@ -65,7 +74,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$USER_HOME$/Bureau/Java/Project/Donjons_Dragons/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
