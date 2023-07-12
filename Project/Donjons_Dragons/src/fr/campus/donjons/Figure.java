@@ -3,16 +3,46 @@ package fr.campus.donjons;
 import fr.campus.donjons.equipement.DefensiveEquipment;
 import fr.campus.donjons.equipement.OffensiveEquipment;
 
+// -----------   my class Figure -----------------------------------
+
 public class Figure {
 
     private String name;
     private String type;
     private int lifeLevel;
     private int attackPower;
-
     private DefensiveEquipment defensiveEquipment;
     private OffensiveEquipment offensiveEquipment;
 
+    @Override
+    public String toString() {
+        return "Figure{" +
+                "\nname='" + name + '\'' +
+                ", \ntype='" + type + '\'' +
+                ", \nlifeLevel=" + lifeLevel +
+                ", \nattackPower=" + attackPower +
+                ", \ndefensiveEquipment=" + defensiveEquipment +
+                ", \noffensiveEquipment=" + offensiveEquipment +
+                '}';
+    }
+
+// --------------  methode -----------------------------------------
+
+
+// --------------  constructor --------------------------------------
+
+    public Figure (){
+    }
+
+    public Figure (String name){
+
+        this.name = name;
+    }
+
+    public Figure (String name, String type){
+        this.name = name;
+        this.type = type;
+    }
 
 
 //  -------------   setters & getters -------------------------------
@@ -64,8 +94,5 @@ public class Figure {
     public void setOffensiveEquipment(OffensiveEquipment offensiveEquipment) {
         this.offensiveEquipment = offensiveEquipment;
     }
-
-
-
 
 }

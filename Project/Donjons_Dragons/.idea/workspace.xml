@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d86c690-e4ea-490b-a7ba-7ed1ff0ebd0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Note/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Note/itProger_java.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Note/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SNvFTPKGYOMMDUhiCHMrpugZvY" />
   <component name="ProjectViewState">
@@ -53,6 +60,20 @@
       <recent name="fr.campus.donjons" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.campus.donjons.Main" />
+      <module name="Donjons_Dragons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,21 +85,11 @@
       <workItem from="1688999757776" duration="4240000" />
       <workItem from="1689006903674" duration="285000" />
       <workItem from="1689088910374" duration="145000" />
+      <workItem from="1689148528429" duration="23523000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

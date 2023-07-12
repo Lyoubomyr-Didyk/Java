@@ -365,6 +365,89 @@ public class Store {
 ```
 
 
+We can declare as many fields as are necessary for the requirements of our program.
+<p>The constructor now has multiple parameters to receive values for the new fields. We still specify the type as well as the name for each parameter.
+
+Ordering matters! We must pass values into the constructor invocation in the same order that they’re listed in the parameters.</p>
+
+```java
+public class Store {
+  // instance fields
+  String productType;
+  int inventoryCount;
+  double inventoryPrice;
+  
+  // constructor method
+  public Store(String product, int count, double price) {
+    productType = product;
+    inventoryCount = count;
+    inventoryPrice = price;
+
+  }
+  
+  // main method
+  public static void main(String[] args) {
+
+    Store cookieShop = new Store("cookies", 12, 3.75);
+    System.out.println(cookieShop.inventoryPrice);
+    
+  }
+}
+```
+
+<h3> - Review</h3>
+Java is an object-oriented programming language where every program has at least one class.
+Classes define the state and behavior of their instances. Behavior comes from methods defined in the class. State comes from instance fields declared inside the class.
+
+```java
+public class Dog {
+  String breed;
+  boolean hasOwner;
+  int age;
+  
+  public Dog(String dogBreed, boolean dogOwned, int dogYears) {
+    System.out.println("Constructor invoked!");
+    breed = dogBreed;
+    hasOwner = dogOwned;
+    age = dogYears;
+  }
+  
+  public static void main(String[] args) {
+    System.out.println("Main method started");
+    Dog fido = new Dog("poodle", false, 4);
+    Dog nunzio = new Dog("shiba inu", true, 12);
+    boolean isFidoOlder = fido.age > nunzio.age;
+    int totalDogYears = nunzio.age + fido.age;
+    System.out.println("Two dogs created: a " + fido.breed + " and a " + nunzio.breed);
+    System.out.println("The statement that fido is an older dog is: " + isFidoOlder);
+    System.out.println("The total age of the dogs is: " + totalDogYears);
+    System.out.println("Main method finished");
+  }
+}
+```
+
+<h2># Part III</h2>
+<h2 style="color: orange">Class Scanner</h2>
+
+```java
+import java.util.Scanner;
+```
+
+```java
+Scanner input = new Scanner(System.in);
+            System.out.print("Insert your name");
+            String name = input.nextLine();
+            System.out.println("Hello, "+name);
+
+            int num = input.nextInt();
+            byte num2 = input.nextByte();
+
+```
+
+
+
+
+
 
 
 
