@@ -3,30 +3,38 @@ package fr.campus.donjons;
 import java.util.Scanner;
 
 public class Menu {
-    private String choice = null;
+    private String choice;
+    Scanner console = new Scanner(System.in);
+
+
+
+
 
 
 
     // -----------  method --------------------------------------------------------
     public void userChoice() {
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Do you want to create a new figure or quit the game?");
+        //Scanner input = new Scanner(System.in);
+        System.out.println("Welcome! We are glad to see you. Look our menu and enter your choice:\n\t1 - create the character;\n\t2 - show all the information of the character\n\t3 - quit the game");
 
-        while(choice == null || (!choice.equals("yes") && !choice.equals("no"))) {
-            System.out.println("Enter please yes or no:");
-            this.choice = input.nextLine().toLowerCase();
+        while(choice == null || (!choice.equals("1") && !choice.equals("2") && !choice.equals("3"))) {
+            System.out.println("Enter please your choice!");
+            this.choice = console.nextLine().toLowerCase();
         }
 
-        if (choice.equals("yes")) {
+        if (choice.equals("1")) {
             Game myGame = new Game();
             String type = getType();
-            myGame.createFigure(type);
+            String name = getName();
+            myGame.createFigure(type, name);
 //                System.out.println(myGame.playerA);
 //                System.out.println(myGame.playerA.getType());
+
+            // start game
         }
 
-        if (choice.equals("no")) {
+        if (choice.equals("3")) {
             exitGame();
         }
     }
@@ -38,10 +46,10 @@ public class Menu {
     }
 
 
+
     public String getType(){
 
         String input = null;
-        Scanner console = new Scanner(System.in);
         System.out.println("Please enter figure type \"warrior\" or \"magician\"");
 
         while(input == null || (!input.equals("warrior") && !input.equals("magician"))) {
@@ -54,4 +62,10 @@ public class Menu {
 
 
 
+    public String getName(){
+        String name;
+        System.out.println("Gives the name to your perssonage");
+        name = console.nextLine();
+        return name;
+    }
 }

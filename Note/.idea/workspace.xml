@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94fa6bcc-f20e-41d4-8190-25df4f496d1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/java.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project/Donjons_Dragons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Donjons_Dragons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/Figure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/equipement/DefensiveEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/equipement/DefensiveEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/equipement/OffensiveEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Donjons_Dragons/src/fr/campus/donjons/equipement/OffensiveEquipment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,7 @@
       <workItem from="1689067351390" duration="39000" />
       <workItem from="1689067420571" duration="15927000" />
       <workItem from="1689146975000" duration="3436000" />
+      <workItem from="1689232312093" duration="599000" />
     </task>
     <servers />
   </component>
