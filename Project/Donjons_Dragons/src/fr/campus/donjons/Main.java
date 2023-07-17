@@ -8,7 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
         Menu choice = new Menu();
-        choice.userChoice();
+        Game game = new Game(choice);
+        game.communication();
 
     }
 }

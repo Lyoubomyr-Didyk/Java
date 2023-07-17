@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d86c690-e4ea-490b-a7ba-7ed1ff0ebd0c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Note/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/DefensiveEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/DefensiveEquipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/OffensiveEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/OffensiveEquipment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +83,7 @@
       <workItem from="1689088910374" duration="145000" />
       <workItem from="1689148528429" duration="24057000" />
       <workItem from="1689232309709" duration="20410000" />
+      <workItem from="1689576536096" duration="24935000" />
     </task>
     <servers />
   </component>
