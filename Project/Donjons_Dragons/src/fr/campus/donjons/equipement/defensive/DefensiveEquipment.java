@@ -1,7 +1,6 @@
-package fr.campus.donjons.equipement;
+package fr.campus.donjons.equipement.defensive;
 
-public class DefensiveEquipment {
-    private String type;
+public abstract class DefensiveEquipment {
 
     private int level;
 
@@ -10,7 +9,6 @@ public class DefensiveEquipment {
     @Override
     public String toString() {
         return "DefensiveEquipment{" +
-                "type='" + type + '\'' +
                 ", level=" + level +
                 ", name='" + name + '\'' +
                 '}';
@@ -19,11 +17,9 @@ public class DefensiveEquipment {
 
 
     // ----------------- constructor -----------------------------
-    public DefensiveEquipment(String type, int level, String name){
-        this.type = type;
+    public DefensiveEquipment(String name, int level){
         this.level = level;
         this.name = name;
     }
-
 }
 

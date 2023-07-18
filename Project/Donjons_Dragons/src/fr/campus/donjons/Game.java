@@ -1,13 +1,12 @@
 package fr.campus.donjons;
 
-import fr.campus.donjons.equipement.DefensiveEquipment;
-import fr.campus.donjons.equipement.OffensiveEquipment;
-import org.w3c.dom.ls.LSOutput;
+import fr.campus.donjons.character.Figure;
+import fr.campus.donjons.character.Magician;
+import fr.campus.donjons.character.Warrior;
+import fr.campus.donjons.equipement.defensive.DefensiveEquipment;
+import fr.campus.donjons.equipement.offensive.OffensiveEquipment;
 
-import java.awt.desktop.ScreenSleepEvent;
-import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Game {
 
@@ -47,6 +46,7 @@ public class Game {
                 if(input.equals("1")){
                     menu.startGame();
                     board();
+
                 }else{
                     menu.exitGame();
                     break;
@@ -67,21 +67,12 @@ public class Game {
 
     public void createFigure(String type, String name) {
 
-        this.playerA = new Figure(name, type);                // object playerA  / je transmet deux param.
-
-        String typePlayer = playerA.getType();
-
-        if (typePlayer.equals("warrior")) {
-            playerA.setAttackPower(10);
-            playerA.setLifeLevel(10);
-            playerA.setOffensiveEquipment(new OffensiveEquipment("weapon", 5, "sword"));
-            playerA.setDefensiveEquipment(new DefensiveEquipment("protection", 3, "shield"));
+        if (type.equals("warrior")) {
+            playerA = new Warrior(name);    // extends Figure
 
         } else {
-            playerA.setAttackPower(15);
-            playerA.setLifeLevel(6);
-            playerA.setOffensiveEquipment(new OffensiveEquipment("weapon", 7, "fireball"));
-            playerA.setDefensiveEquipment(new DefensiveEquipment("protection", 4, "potion"));
+            playerA = new Magician(name);   // extends Figure
+
         }
     }
 

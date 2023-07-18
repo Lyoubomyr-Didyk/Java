@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d86c690-e4ea-490b-a7ba-7ed1ff0ebd0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/campus/donjons/CharacterOffBoardException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/campus/donjons/character/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/campus/donjons/character/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/defensive/Potion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/defensive/Shield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/offensive/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/offensive/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/character/Figure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/DefensiveEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/defensive/DefensiveEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/OffensiveEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/campus/donjons/equipement/offensive/OffensiveEquipment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +93,7 @@
       <workItem from="1689148528429" duration="24057000" />
       <workItem from="1689232309709" duration="20410000" />
       <workItem from="1689576536096" duration="24935000" />
+      <workItem from="1689663874154" duration="13207000" />
     </task>
     <servers />
   </component>

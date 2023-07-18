@@ -1,14 +1,13 @@
-package fr.campus.donjons;
+package fr.campus.donjons.character;
 
-import fr.campus.donjons.equipement.DefensiveEquipment;
-import fr.campus.donjons.equipement.OffensiveEquipment;
+import fr.campus.donjons.equipement.defensive.DefensiveEquipment;
+import fr.campus.donjons.equipement.offensive.OffensiveEquipment;
 
 // -----------   my class Figure -----------------------------------
 
-public class Figure {
+public abstract class Figure {
 
     private String name;
-    private String type;
     private int lifeLevel;
     private int attackPower;
     private DefensiveEquipment defensiveEquipment;
@@ -18,7 +17,6 @@ public class Figure {
     public String toString() {
         return "Figure{" +
                 "\nname='" + name + '\'' +
-                ", \ntype='" + type + '\'' +
                 ", \nlifeLevel=" + lifeLevel +
                 ", \nattackPower=" + attackPower +
                 ", \ndefensiveEquipment=" + defensiveEquipment +
@@ -35,13 +33,7 @@ public class Figure {
     }
 
     public Figure (String name){
-
         this.name = name;
-    }
-
-    public Figure (String name, String type){
-        this.name = name;
-        this.type = type;
     }
 
 
@@ -53,14 +45,6 @@ public class Figure {
 
     public void setName(String name) {         // modifier la valeur
         this.name = name;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public int getLifeLevel() {
