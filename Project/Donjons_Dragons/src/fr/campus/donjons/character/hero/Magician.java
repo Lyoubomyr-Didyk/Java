@@ -1,11 +1,10 @@
-package fr.campus.donjons.character;
+package fr.campus.donjons.character.hero;
 
-import fr.campus.donjons.equipement.defensive.DefensiveEquipment;
-import fr.campus.donjons.equipement.offensive.OffensiveEquipment;
+import fr.campus.donjons.character.hero.Figure;
 import fr.campus.donjons.equipement.offensive.Spell;
 import fr.campus.donjons.equipement.defensive.Potion;
 
-public class Magician extends Figure{
+public class Magician extends Figure {
     public Magician(String name){
         super(name);
         setAttackPower(15);

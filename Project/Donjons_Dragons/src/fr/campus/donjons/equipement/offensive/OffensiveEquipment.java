@@ -1,6 +1,8 @@
 package fr.campus.donjons.equipement.offensive;
 
-public abstract class OffensiveEquipment {
+import fr.campus.donjons.equipement.Surprise;
+
+public abstract class OffensiveEquipment extends Surprise {
     private int level;
 
     private String name;

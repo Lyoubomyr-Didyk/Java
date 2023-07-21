@@ -1,4 +1,4 @@
-package fr.campus.donjons.character;
+package fr.campus.donjons.character.hero;
 
 import fr.campus.donjons.equipement.defensive.DefensiveEquipment;
 import fr.campus.donjons.equipement.offensive.OffensiveEquipment;
@@ -16,11 +16,11 @@ public abstract class Figure {
     @Override
     public String toString() {
         return "Figure{" +
-                "\nname='" + name + '\'' +
-                ", \nlifeLevel=" + lifeLevel +
-                ", \nattackPower=" + attackPower +
-                ", \ndefensiveEquipment=" + defensiveEquipment +
-                ", \noffensiveEquipment=" + offensiveEquipment +
+                "\n\tname = '" + name + '\'' +
+                ", \n\tlifeLevel = " + lifeLevel +
+                ", \n\tattackPower = " + attackPower +
+                ", \n\tdefensiveEquipment = " + defensiveEquipment +
+                ", \n\toffensiveEquipment = " + offensiveEquipment +
                 '}';
     }
 

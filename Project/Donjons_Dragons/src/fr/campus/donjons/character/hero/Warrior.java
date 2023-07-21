@@ -1,10 +1,12 @@
-package fr.campus.donjons.character;
+package fr.campus.donjons.character.hero;
 
+import fr.campus.donjons.character.hero.Figure;
 import fr.campus.donjons.equipement.defensive.Shield;
 import fr.campus.donjons.equipement.offensive.Weapon;
 
 
 public class Warrior extends Figure {
+
     public Warrior (String name){
         super(name);
         setAttackPower(10);
@@ -12,5 +14,4 @@ public class Warrior extends Figure {
         setOffensiveEquipment(new Weapon("sword", 5));
         setDefensiveEquipment(new Shield("round", 3));
         }
-
 }

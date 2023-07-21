@@ -1,6 +1,8 @@
 package fr.campus.donjons.equipement.defensive;
 
-public abstract class DefensiveEquipment {
+import fr.campus.donjons.equipement.Surprise;
+
+public abstract class DefensiveEquipment extends Surprise {
 
     private int level;
 
@@ -13,8 +15,6 @@ public abstract class DefensiveEquipment {
                 ", name='" + name + '\'' +
                 '}';
     }
-
-
 
     // ----------------- constructor -----------------------------
     public DefensiveEquipment(String name, int level){

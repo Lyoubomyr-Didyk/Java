@@ -1,12 +1,11 @@
 package fr.campus.donjons;
 
 
+import fr.campus.donjons.game.Game;
+
 public class Main {
     public static void main(String[] args) {
 
-        Menu choice = new Menu();
-        Game game = new Game(choice);
-        game.communication();
-
+        new Game().mainMenu();
     }
 }
